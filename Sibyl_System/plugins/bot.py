@@ -46,6 +46,10 @@ async def make_proof(user: Union[str, int]):
 async def sup(event):
     await event.reply("Azeon Is Ready To Pass Judgement")
 
+@System.bot.on(events.NewMessage(pattern="[/!]ping"))
+async def sup(event):
+    await event.reply("**pong** \n `Still alive`")
+
 
 @System.bot.on(events.NewMessage(pattern="[/!]alertmode"))
 async def setalertmode(event):
