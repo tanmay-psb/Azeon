@@ -43,7 +43,7 @@ for load in to_load:
 
 @System.on(system_cmd(pattern=r"exinfo", allow_enforcer=True))
 async def status(event):
-    msg = await event.reply("Conecting to EDITH - X Core.")
+    msg = await event.reply("Conecting to Azeon ✣ Core.")
     time.sleep(1)
     await msg.edit("Initialising code sequence ■□□□□")
     time.sleep(1)
@@ -55,7 +55,7 @@ async def status(event):
     time.sleep(1)
     await msg.edit("Initialising Code sequence ■■■■■")
     time.sleep(1)
-    await msg.edit("🔰ACCESS GRANTED🔰")
+    await msg.edit("✣ ACCESS GRANTED ✣")
     time.sleep(2)
     sender = await event.get_sender()
     user_status = "Inspector" if sender.id in INSPECTORS else "Enforcer"
