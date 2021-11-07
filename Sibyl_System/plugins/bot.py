@@ -44,7 +44,7 @@ async def make_proof(user: Union[str, int]):
 
 @System.bot.on(events.NewMessage(pattern="[/!]start"))
 async def sup(event):
-    await event.reply("sup?")
+    await event.reply("Azeon Is Ready To Pass Judgement")
 
 
 @System.bot.on(events.NewMessage(pattern="[/!]alertmode"))
