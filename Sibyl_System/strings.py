@@ -1,6 +1,6 @@
 on_string = """
   **I'm Azeon, How Are You, Sir? **
-**Welcome** 🚨🔱🚨
+**Welcome** Dear User
 **Name** - `{name}`
 **Rank** - `{Enforcer}`
 __You are an authorized user!__
