@@ -1,9 +1,9 @@
 on_string = """
-  **I'm Edith, How Are You, Sir? **
-**Welcome** ⭐⭐⭐
+  **I'm Azeon, How Are You, Sir? **
+**Welcome** 🚨🔱🚨
 **Name** - `{name}`
 **Rank** - `{Enforcer}`
-__You are an authorized user__
+__You are an authorized user!__
 """
 
 # Make sure not to change these too much
