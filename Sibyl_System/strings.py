@@ -1,9 +1,8 @@
 on_string = """
-  **▪︎I'm Azeon x Scanner, How May I Help You Sir?▪︎ **
-**▪︎Welcome** Dear User▪︎
-**▪︎Name** - `{name}▪︎`
-**▪︎Rank** - `{Enforcer}▪︎`
-__▪︎You are an authorized user!▪︎__
+  **⚜️ I'm Azeon x Scanner, How May I Help You Sir?⚜️ **
+**•Name** - `{name}`
+**•Rank** - `{Enforcer}`
+__°You are an authorized user!°__
 """
 
 # Make sure not to change these too much
