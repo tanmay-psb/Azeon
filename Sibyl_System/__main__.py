@@ -41,7 +41,7 @@ for load in to_load:
         print("------------------------------------")
 
 
-@System.on(system_cmd(pattern=r"exinfo", allow_enforcer=True))
+@System.on(system_cmd(pattern=r"axinfo", allow_enforcer=True))
 async def status(event):
     msg = await event.reply("Conecting to Azeon ✣ Core.")
     time.sleep(1)
