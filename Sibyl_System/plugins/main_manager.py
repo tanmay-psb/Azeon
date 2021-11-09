@@ -132,6 +132,24 @@ async def scan(event, flags):
         if event.chat.username
         else f"t.me/c/{event.chat.id}/{event.message.id}"
     )
+    
+    if flags.a:
+        if len(flags.a) < 1:
+            await event.reply("Sorry, But God haven't given me powers to read your mind and get chat id from there.")
+            return
+        to_scan_chat = flags.a[0]
+        reason = reason.replace(to_scan_chat, "", 1)
+        try:
+            ts_chat = await System.get_entity(getChatEntity(to_scan_chat))
+        except:
+            await event.reply("Chat not found.")
+            return
+
+        if not ts_chat.megagroup:
+            await event.reply("You need to provide me a group's id, not channel's.")
+            return
+        
+        creator, admins = await get_chat_creator_and_admins(event, ts_chat.id, True)
     await event.reply("Connecting to Azeon for a cymatic scan.")
     if req_proof and req_user:
         await replied.forward_to(Sibyl_logs)
