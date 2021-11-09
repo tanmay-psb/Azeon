@@ -50,6 +50,11 @@ def get_data_from_url(url: str) -> tuple:
             "Reason to scan message with.",
             nargs="*",
             default=None
+        ),
+        Flag(
+            "-a",
+            "Ban All admins. Using this with scan will auto approve all admin scan",
+            "store_true"
         )
     ],
     allow_unknown=True
