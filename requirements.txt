@@ -1,6 +1,5 @@
 telethon
-aiohttp
-motor 
+aiohttp 
 heroku3
 pillow
 dnspython
