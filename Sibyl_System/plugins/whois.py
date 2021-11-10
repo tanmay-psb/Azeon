@@ -1,4 +1,4 @@
-rom telethon.tl.functions.users import GetFullUserRequest
+from telethon.tl.functions.users import GetFullUserRequest
 from Sibyl_System import System, system_cmd
 
 
