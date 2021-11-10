@@ -1,4 +1,4 @@
-from telethon.tl.functions.users import GetFullUserRequest
+rom telethon.tl.functions.users import GetFullUserRequest
 from Sibyl_System import System, system_cmd
 
 
@@ -33,4 +33,6 @@ help_plus = """ Here is Help for **Whois** -
 `/` `?` `.` `!` are supported prefixes.
 **Example:** `/addenf` or `?addenf` or `.addenf`
 """
+__plugin_name__ = "whois"
+
 __plugin_name__ = "whois"
