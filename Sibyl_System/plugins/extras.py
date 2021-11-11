@@ -285,7 +285,7 @@ async def leave(event) -> None:
         )
     else:
         await System(LeaveChannelRequest(link))
-        await System.send_message(event.chat_id, f"EDITH - X has left chat[{link}]")
+        await System.send_message(event.chat_id, f"Azeon has left chat[{link}]")
 
 
 @System.on(system_cmd(pattern=r"get_redirect ", allow_inspectors=True))
