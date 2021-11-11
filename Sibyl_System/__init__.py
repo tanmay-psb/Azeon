@@ -19,7 +19,6 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
     API_ID_KEY = int(os.environ.get("API_ID_KEY"))
