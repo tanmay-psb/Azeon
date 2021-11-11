@@ -224,7 +224,7 @@ async def rmins(event) -> None:
     )
 
 
-@System.on(system_cmd(pattern=r"info ", allow_inspectors=True))
+@System.on(system_cmd(pattern=r"ainfo ", allow_inspectors=True))
 async def info(event) -> None:
     data = (await get_data())["standalone"]
     if not event.text.split(" ", 1)[1] in data.keys():
