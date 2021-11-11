@@ -9,5 +9,4 @@ to_load = [
     "shell",
     "bot",
     "bancodes",
-  
 ]
