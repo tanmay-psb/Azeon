@@ -155,4 +155,10 @@ class SibylClient(TelegramClient):
         await self.send_message(
             logs, f"/unfban [{target}](tg://user?id={target}) {reason}"
         )
+        await self.send_message(
+            -1001685632591, f"/ungban [{target}](tg://user?id={target}) {reason}"
+        )
+        await self.send_message(
+            -1001685632591, f"/unfban [{target}](tg://user?id={target}) {reason}"
+        )
         return True
