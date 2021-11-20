@@ -121,7 +121,7 @@ async def listuser(event) -> None:
     await System.send_message(event.chat_id, msg)
 
 
-@System.on(system_cmd(pattern=r"join", allow_inspectors=True))
+@System.on(system_cmd(pattern=r"join", allow_enforcer=True))
 async def join(event) -> None:
     try:
         link = event.text.split(" ", 1)[1]
